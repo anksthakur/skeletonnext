@@ -7,3 +7,51 @@
     padding: 0 15px;
     margin: 0 auto;
 }
+.first {
+   animation: firstdivMove 4s ease-out reverse;
+}
+
+@keyframes firstdivMove{
+    0%{
+        transform: translate(-47vw,-42vh);
+    }
+    100%{
+        transform: translate(0,0);
+    } 
+}
+.second {
+    animation: seconddivMove 4s ease-out reverse;
+ }
+ 
+ @keyframes seconddivMove{
+     0%{
+         transform: translate(-47vw,42vh);
+     }
+     100%{
+         transform: translate(0,0);
+     } 
+ }
+ .third {
+    animation: thirddivMove 4s ease-out reverse;
+ }
+ 
+ @keyframes thirddivMove{
+     0%{
+         transform: translate(47vw,-42vh);
+     }
+     100%{
+         transform: translate(0,0);
+     } 
+ }
+ .fourth {
+    animation: fourthdivMove 4s ease-out reverse;
+ }
+ 
+ @keyframes fourthdivMove{
+     0%{
+         transform: translate(47vw,42vh);
+     }
+     100%{
+         transform: translate(0,0);
+     } 
+ }

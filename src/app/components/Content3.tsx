@@ -14,6 +14,7 @@ const Content3: React.FC = () => {
   );
   return (
     <>
+    <div id='about2'>
       <div className='wrapper px-4 md:px-8 lg:px-16'>
         <div className='about'>
           <div className='abouttext mt-5'>
@@ -120,6 +121,7 @@ const Content3: React.FC = () => {
                 <button>Contact</button>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </div>

@@ -17,9 +17,10 @@ const Content2: React.FC = () => {
 
   return (
     <>
-      <div className='wrapper px-4 md:px-8 lg:px-16'>
-        <div className='mt-6'>
-          <div className='mb-6'>
+    <div id='projects'>
+      <div className='wrapper px-4 md:px-8 lg:px-16 '>
+        <div className='mt-6 '>
+          <div className='mb-6 '>
             <h3 className='font-semibold text-xl md:text-2xl lg:text-3xl'>Projects</h3>
           </div>
           <div className='grid grid-cols-2 lg:grid-cols-4 gap-3'>
@@ -88,6 +89,7 @@ const Content2: React.FC = () => {
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </>

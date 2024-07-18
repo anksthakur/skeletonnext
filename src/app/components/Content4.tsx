@@ -3,6 +3,7 @@ import React from 'react'
 const Content4: React.FC = () => {
   return (
     <>
+    <div id="contact2">
       <div className='wrapper px-4 md:px-8 lg:px-16'>
         <div className='contact mt-7'>
           <div className='contact1'>
@@ -21,6 +22,7 @@ const Content4: React.FC = () => {
             <button className='text-white bg-black mt-4 p-2'>Send Message</button>
           </div>
         </div>
+      </div>
       </div>
     </>
   )

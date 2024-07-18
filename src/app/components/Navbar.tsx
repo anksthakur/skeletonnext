@@ -11,9 +11,9 @@ const Navbar: React.FC = () => {
           </Link>
         </div>
         <div className="hidden md:flex space-x-8">
-          <Link href="/projects" className="hover:bg-gray-200 p-2 rounded transition-colors duration-300">Projects</Link>
-          <Link href="/about" className="hover:bg-gray-200 p-2 rounded transition-colors duration-300">About</Link>
-          <Link href="/contact" className="hover:bg-gray-200 p-2 rounded transition-colors duration-300">Contact</Link>
+          <Link href="#projects" className="hover:bg-gray-200 p-2 rounded transition-colors duration-300">Projects</Link>
+          <Link href="#about2" className="hover:bg-gray-200 p-2 rounded transition-colors duration-300">About</Link>
+          <Link href="#contact2" className="hover:bg-gray-200 p-2 rounded transition-colors duration-300">Contact</Link>
         </div>
       </div>
     </nav>
