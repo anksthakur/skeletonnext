@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@keyframes firstdivMove {
+  0% {
+    transform: translate(-47vw, -42vh) scale(1);
+  }
+  50% {
+    transform: translate(-20vw, -50vh) scale(1.1);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+} 
+
+ .first {
+  @apply block;
+  animation: firstdivMove 4s cubic-bezier(0, 0, 0.58, 1) reverse;
+}
+
+
+@keyframes seconddivMove {
+  0% {
+    transform: translate(-47vw, 42vh) scale(1);
+  }
+  50% {
+    transform: translate(-20vw, 30vh) scale(1.2);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+.second {
+  @apply block;
+  animation: seconddivMove 4s cubic-bezier(0, 0,0.50, 1) reverse;
+}
+
+@keyframes thirddivMove {
+  0% {
+    transform: translate(47vw, -42vh);
+  }
+  50% {
+    transform: translate(15vw, -40vh);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+ .third {
+  @apply block;
+  animation: thirddivMove 4s cubic-bezier(0, 0, 0.6, 1) reverse;
+}
+
+
+@keyframes fourthdivMove {
+  0% {
+    transform: translate(47vw, 42vh);
+  }
+  50% {
+    transform: translate(-5vw, 22vh); 
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+} 
+
+.fourth {
+  @apply block;
+  animation: fourthdivMove 4s cubic-bezier(0, 0, 0.27, 1) reverse;
+}

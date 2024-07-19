@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from 'react'
+import "../animation2/page.css"
 
 const Page = () => {
   const [visible, setVisible] = useState(false);
@@ -15,11 +16,11 @@ const Page = () => {
           <div className='topbottom flex'>
             <div className='top'>
               <div className='first bg-red-500 w-6 h-6'></div>
-              <div className='second bg-blue-500 w-6 h-6'></div>
+              <div className='second bg-green-500 w-6 h-6'></div>
             </div>
             <div className='bottom'>
-              <div className='third bg-yellow-500 w-6 h-6'></div>
-              <div className='fourth bg-green-500 w-6 h-6'></div>
+              <div className='third bg-blue-500 w-6 h-6'></div>
+              <div className='fourth bg-yellow-500 w-6 h-6'></div>
             </div>
           </div>
         )}
