@@ -7,11 +7,17 @@
   0% {
     transform: translate(-47vw, -42vh) scale(1);
   }
+  25% {
+    transform: translate(-30vw, -50vh) scale(1.05);
+  }
   50% {
-    transform: translate(-20vw, -50vh) scale(1.1);
+    transform: translate(-20vw, -55vh) scale(1.1);
+  }
+  75% {
+    transform: translate(-10vw, -50vh) scale(1.05);
   }
   100% {
-    transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(0);
   }
 }
 
@@ -25,11 +31,17 @@
   0% {
     transform: translate(-47vw, 42vh) scale(1);
   }
+  25% {
+    transform: translate(-30vw, 35vh) scale(1.05);
+  }
   50% {
     transform: translate(-20vw, 30vh) scale(1.1);
   }
+  75% {
+    transform: translate(-10vw, 35vh) scale(1.05);
+  }
   100% {
-    transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(0);
   }
 }
 
@@ -43,11 +55,17 @@
   0% {
     transform: translate(47vw, -42vh) scale(1);
   }
+  25% {
+    transform: translate(30vw, -35vh) scale(1.05);
+  }
   50% {
-    transform: translate(15vw, -40vh) scale(1.1);
+    transform: translate(20vw, -30vh) scale(1.1);
+  }
+  75% {
+    transform: translate(10vw, -35vh) scale(1.05);
   }
   100% {
-    transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(0);
   }
 }
 
@@ -61,11 +79,17 @@
   0% {
     transform: translate(47vw, 42vh) scale(1);
   }
+  25% {
+    transform: translate(30vw, 35vh) scale(1.05);
+  }
   50% {
-    transform: translate(5vw, 22vh) scale(1.1);
+    transform: translate(20vw, 30vh) scale(1.1);
+  }
+  75% {
+    transform: translate(10vw, 35vh) scale(1.05);
   }
   100% {
-    transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(0);
   }
 }
 

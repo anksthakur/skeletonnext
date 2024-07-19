@@ -15,12 +15,12 @@ const Page = () => {
         {visible && (
           <div className='topbottom flex'>
             <div className='top'>
-              <div className='first bg-red-500 w-6 h-6'></div>
-              <div className='second bg-green-500 w-6 h-6'></div>
+              <div className='first bg-red-500 w-6 h-6 rounded-full'></div>
+              <div className='second bg-green-500 w-6 h-6 rounded-full'></div>
             </div>
             <div className='bottom'>
-              <div className='third bg-blue-500 w-6 h-6'></div>
-              <div className='fourth bg-yellow-500 w-6 h-6'></div>
+              <div className='third bg-blue-500 w-6 h-6 rounded-full'></div>
+              <div className='fourth bg-yellow-500 w-6 h-6 rounded-full'></div>
             </div>
           </div>
         )}
