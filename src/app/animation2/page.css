@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
+/* Animation for .first */
 @keyframes firstdivMove {
   0% {
     transform: translate(-47vw, -42vh) scale(1);
@@ -14,20 +13,20 @@
   100% {
     transform: translate(0, 0) scale(1);
   }
-} 
+}
 
- .first {
+.first {
   @apply block;
   animation: firstdivMove 4s cubic-bezier(0, 0, 0.58, 1) reverse;
 }
 
-
+/* Animation for .second */
 @keyframes seconddivMove {
   0% {
     transform: translate(-47vw, 42vh) scale(1);
   }
   50% {
-    transform: translate(-20vw, 30vh) scale(1.2);
+    transform: translate(-20vw, 30vh) scale(1.1);
   }
   100% {
     transform: translate(0, 0) scale(1);
@@ -36,38 +35,39 @@
 
 .second {
   @apply block;
-  animation: seconddivMove 4s cubic-bezier(0, 0,0.50, 1) reverse;
+  animation: seconddivMove 4s cubic-bezier(0, 0, 0.50, 1) reverse;
 }
 
+/* Animation for .third */
 @keyframes thirddivMove {
   0% {
-    transform: translate(47vw, -42vh);
+    transform: translate(47vw, -42vh) scale(1);
   }
   50% {
-    transform: translate(15vw, -40vh);
+    transform: translate(15vw, -40vh) scale(1.1);
   }
   100% {
-    transform: translate(0, 0);
+    transform: translate(0, 0) scale(1);
   }
 }
 
- .third {
+.third {
   @apply block;
   animation: thirddivMove 4s cubic-bezier(0, 0, 0.6, 1) reverse;
 }
 
-
+/* Animation for .fourth */
 @keyframes fourthdivMove {
   0% {
-    transform: translate(47vw, 42vh);
+    transform: translate(47vw, 42vh) scale(1);
   }
   50% {
-    transform: translate(-5vw, 22vh); 
+    transform: translate(5vw, 22vh) scale(1.1);
   }
   100% {
-    transform: translate(0, 0);
+    transform: translate(0, 0) scale(1);
   }
-} 
+}
 
 .fourth {
   @apply block;
